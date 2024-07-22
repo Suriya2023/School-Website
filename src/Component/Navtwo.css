@@ -1,0 +1,42 @@
+/* second nav. */
+@media screen and (max-width:991px) {
+    #Navtwo{
+        background-color: #f9f1e4;
+        display: block;
+      }
+      #FNavbar{
+        display: none;
+      }
+  
+
+    }
+
+
+/* @media screen and (max-width:550px   ) { */
+    .container-fluid > img{
+        height: 42px;
+    }
+
+@media screen and (min-width:320px) and (max-width:400px) {
+
+    #fivevmin{
+        width: 15vmin;
+    }}
+
+    @media screen and (min-width:403px) {
+        .offcanvas-header > img{
+            width: 5vmin;
+        }
+    }
+
+    #aassasa:hover {
+        background-color: #663300;
+        color: #fff;
+    }
+    #aassasa{
+        color: #663300;
+        border: 1px solid #663300;
+    }
+    .nav-item > a{
+        color: #663300;
+    }

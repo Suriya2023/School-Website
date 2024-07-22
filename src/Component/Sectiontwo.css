@@ -1,0 +1,63 @@
+/* src/components/EducationBanner.css */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  /* background-color: ; */
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-content {
+  max-width: 50%;
+}
+
+.banner-content h1 {
+  font-size: 2.5em;
+  color: #5a2d0c;
+  margin-bottom: 20px;
+}
+
+
+.read-more-btn {
+  background-color: #8b4513;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.read-more-btn:hover {
+  background-color: #a0522d;
+}
+
+.banner-image {
+  max-width: 40%;
+  position: relative;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .banner-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-content {
+    max-width: 100%;
+  }
+
+  .banner-image {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+}
